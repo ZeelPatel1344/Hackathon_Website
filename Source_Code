@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathone Project</title>
+  </head>
+  <style>
+    *{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .image{
+        height: 79px;
+        width: 70px;
+        display: inline;
+        
+        margin-left: 34px;
+        margin-top: 20px;
+        border-radius: 9px;
+    }
+    .text-1
+    {
+        display: inline;
+        float: right;
+        margin-top: 37px;
+        margin-right: 610px;
+        color: white;
+    }
+    .text-2{
+        color: rgb(207, 181, 181);
+        display: inline;
+        float: right;
+        margin-top: -29px;
+        margin-right: 693px;
+        /* margin-bottom: 9px; */
+        padding-bottom: 9px;
+    }
+    .container{
+       background-image: url(https://th.bing.com/th/id/OIP.MsFXESbuVIromtfyJ9O5UgHaDP?pid=ImgDet&rs=1);
+        border-radius: 30px;
+        padding-bottom: 9px;
+       
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c3d62;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(91, 43, 43);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(160, 115, 115, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nev{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 21px;
+}
+.a{
+    margin-top: 12px;
+}
+
+.multi{
+    border: 2px solid blue;
+    box-shadow: 5px 5px 5px lightblue inset;
+    display: inline;
+    margin-top: 10px;
+    margin-left: -710px;
+    margin-bottom: 9px;
+    font-size: medium;
+    border-radius: 9px;
+    font-size:x-large;
+}
+.paragraph{
+    float: left;
+    margin-top: 52px;
+    margin-left: 100px;
+    margin-bottom: 65px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    float: right;
+   
+    margin-bottom: -9px;
+    margin-top: 9px;
+}
+.information h3{
+    margin-left: 52px;
+    margin-bottom: -5px;
+    margin-top: 8px;
+}
+.information  p{
+    border: 1px solid rgb(214, 92, 92); 
+    margin-bottom: -17px; 
+    margin-right: 53px;
+     margin-left: 53px;
+}
+.content{
+    margin-bottom: 66px;
+    border: 2px solid rgb(97, 97, 165);
+}
+.anime{
+    width: 760px;
+}
+.scrollbar-auto {
+            scrollbar-color: auto;
+ 
+            height: 300px;
+            width: 700px;
+            background-color: rgb(239, 245, 245);
+            color: rgb(11, 11, 10);
+            overflow-y: scroll;
+            margin-left: 135px;
+            margin-top: 33px;
+        }
+        .scrollbar-auto h1{
+            border: 2px solid blue;
+    box-shadow: 5px 5px 5px lightblue inset;
+    border-radius: 9px;
+    font-size:x-large;
+    display: inline;
+        }
+
+       .footer{
+        margin-top: 17px;
+        margin-right: 20px;
+        margin-left: -7px;
+        
+        background-color: black;
+        color: white;
+        width: 102%;
+      }
+.main-div{
+  background-image: url("https://i.pinimg.com/736x/ff/69/c3/ff69c3c64820b9305b8737f27c31d46b--green-backgrounds-background-designs.jpg");
+  background-size: cover ;
+}
+</style>
+
+
+<body>
+  <div class="main-div">
+    <!-- Header section -->
+    <header style="margin-top: -6px;">
+      <div class="container">
+          <img class="image" src="https://image.shutterstock.com/z/stock-photo-sculpture-of-emblem-of-india-four-lion-symbolizing-power-courage-pride-and-confidence-rest-on-402547141.jpg" alt="no image">
+          
+          <h2 class="text-1">MULTI-STATE CO-OPERATIVE SOCIETIES</h2>
+
+          <h4 class="text-2">Ministry of Cooperation, Govt. of India</h4>       
+      </div>
+  </header>
+  <!-- Navegation  bar -->
+    <nav class="a" >
+        <ul class="nev">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Banks</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">chart</a>
+    <div class="dropdown-content">
+      <a href="#">State-Wise</a>
+      <a href="#">Year-wise</a>
+      <a href="#">Type-wise</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Reg.societies</a>
+    <div class="dropdown-content">
+      <a href="#"> State-Wise lise</a>
+      <a href="#">All reg. societies(pdf)</a>
+      <a href="#">calender Year-wise list</a>
+      <a href="#">financial Year-wise list</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Forms</a>
+    <div class="dropdown-content">
+      <a href="#"> Form 1</a>
+      <a href="#">Form 2</a>
+      <a href="#">Form 3</a>
+      <a href="#">Form 4</a>
+      <a href="#">Form 5</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Application</a>
+    <div class="dropdown-content">
+      <a href="#"> Recieved Application</a>
+      <a href="#">Status of Application</a>
+      
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">MSCS-MIS</a>
+    <div class="dropdown-content">
+      <a href="#"> New user registration</a>
+      <a href="#">User login</a>
+      <a href="#">Admin User </a>     
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Registration Process</a>
+  </li>
+
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">handal amendments</a>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Appleal</a>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">annual Returns</a>
+  </li>
+</ul>
+    </nav>
+
+    <!-- Hero section -->
+    <h3 class="multi">Multi State Cooperative Societies ACT, 2002</h3>
+    <p class="paragraph">An Act to consolidate and amend the law relating to co-operative societies, with objects not confined <br> to one State and serving the interests of members in more than one State, to facilitate the voluntary <br>
+         formation and democratic functioning of co-operatives as people's institutions based on self-help and <br>mutual aid and to enable them to promote their economic and social betterment and to provide <br>functional autonomy ,was being 
+         felt necessary by the various cooperative societies, and federation of <br> various cooperative societies as well as by the Government. In order to achieve the objective The <br> Multi State Cooperative Societies Bill was introduced in the Parliament.The bill having been passed by <br>both the Houses of Parliament received the assent of the President on 3rd July 2002 and it came on <br> the Statute Book as The Multi State Cooperative Societies ACT 2002 (39 of 2002).</p>
+    <!-- Information section -->
+    <div class="information">
+
+        <div class="content">            
+            <h3 style="color: #453bb4;">Latest Hearings</H3>
+                <p >Medcity Cooperative Hospital and <br> Research Center Ltd.,KERALA</p>
+                <p >Shree Ninaidevi Multi Specialty <br>Cooperative Hospital and Research <br>Center Ltd.,MAHARASHTRA</p>
+                <p >Global Federation of Natural Farming <br> Cooperative Ltd.,UTTAR PRADESH</p>
+                
+                <h3 style="margin-top: 21px; color: #453bb4;">Latest Certificates</H3>
+                    <p>COSMOS Cooperative Bank Ltd., <br>,MAHARASHTRA</p>
+                    <p>Wishvaas Credit Cooperative Society <br>Ltd.,,PUNJAB</p>
+                    <p>Mahesh Multi State Cooperative Credit <br> Society Ltd.,MAHARASHTRA</p>
+                    
+            <h3 style="margin-top: 21px; color: #453bb4;">Latest Order Sheet</h3>
+                    <p>Home Multi State Cooperative Housing <br> Society Ltd</p>
+                    <p>Lokmanya Multipurpose Cooperative <br>Society Limited, Belgaum, Karnataka: <br> Order Sheet of Hearing held on <br> 14.02.2022</p>
+                    <p style="margin-bottom: 9px;">Lotus Agricultural and Marketing <br> Cooperative Society Ltd., Pitampura, <br>New Delhi: Order Sheet of Hearing held <br> on 04.02.2022</p>
+          </div>
+     </div>
+
+     <div class="scrollbar-auto">
+         <br>
+          <h1>
+             News/Events
+         </h1>
+         <br>
+         
+       <br> Notice for winding up_Khusi Credit Cooperative Society_Dated 15-06-2023 <br><br>
+            Liquidator Change Order_subh kalyan Multistate Cooperative Credit Society Ltd dated 05.06.2023
+            Liquidator extension orderNew<br><br>
+            Under Section 97 of the Multi State Co-operative Societies Act,2002<br><br>
+            Under Section 97 of the Multi State Co-operative Societies Act,2002<br><br>
+            Under Section 97 of the Multi State Co-operative Societies Act,2002<br><br>
+            Gazette of India 21-03-2023 <br><br>
+            Liquidation order of Swarn India Multi State Credit Cooperative Society ltd<br><br>
+            Liquidator extension order of Shree Swastik Credit Cooperative Society ltd <br><br>
+            Under section 86 of the multi state Co-operative society Act,2002 <br><br>
+            Liquidation order 31-01-2023 Rubi credit cooperative society Ltd Ajmer Rajasthan <br><br>
+            Letter issued to Winner Royal Varsha Credit cooperative society Ltd Banswara Rajasthan 19-01-2023 <br><br>
+            Show Cause Notice to Pride Multi State Credit Cooperative Society dated 10 jan 2023 <br><br>
+            Madhavpura Mercantile Coop Bank Ltd <br><br>
+            Notice dated 15.12.2022 to concerned societies   
+       </div>
+<!-- Footer section -->
+  <footer>
+    <div style="height: 3px; background-color: red; margin-top: 30px;"></div>
+      <div class="footer">
+          <div style="margin-left: 30px;">State Registrars | Societies in the Second Schedule | Complaint & Hearing Notice | Hearing Order Sheet | Circulars | Latest Certificates | Amendment (Bye Laws) |</div> <div style="margin-left: 223px;">Notices (New Registration) | 
+              Rejection Orders | Feedback | RTI | Other Links | Contact Us | Grievance </div> <div style="margin-left: 233px;">Designed and Developed by Agriculture Informatics Division, National Informatics Centre Disclaimer</div>
+      </div>
+  </div>
+</footer>   
+</body>
+</html>
